@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header><h1>Sudoku</h1></header>
+
+
+    <script type="text/javascript">
+        function change(sender, eventArgs) {
+            sudoku_table.rows[r].cells[c].classList.add("test");
+         }
+        </script>
+
+    <table id="sudoku_table">
+        <caption></caption>
+        <colgroup><col id="col0"><col id="col3"><col id="col6">
+        <colgroup><col id="col1"><col id="col4"><col id="col7">
+        <colgroup><col id="col2"><col id="col5"><col id="col8">
+        <tbody>
+         <tr id="row0"> <td onclick="getId(this)">1 <td onclick="getId(this)">  <td onclick="getId(this)">3 <td onclick="getId(this)">6 <td onclick="getId(this)">  <td onclick="getId(this)">4 <td onclick="getId(this)">7 <td onclick="getId(this)">  <td onclick="getId(this)">9
+         <tr id="row1"> <td onclick="getId(this)">  <td onclick="getId(this)">2 <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">9 <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">1 <td onclick="getId(this)">
+         <tr id="row2"> <td onclick="getId(this)">7 <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">6
+        <tbody> 
+         <tr id="row3"> <td onclick="getId(this)">2 <td onclick="getId(this)">  <td onclick="getId(this)">4 <td onclick="getId(this)">  <td onclick="getId(this)">3 <td onclick="getId(this)">  <td onclick="getId(this)">9 <td onclick="getId(this)">  <td onclick="getId(this)">8
+         <tr id="row4"> <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">
+         <tr id="row5"> <td onclick="getId(this)">5 <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">9 <td onclick="getId(this)">  <td onclick="getId(this)">7 <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">1
+        <tbody> 
+         <tr id="row6"> <td onclick="getId(this)">6 <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">5 <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">2
+         <tr id="row7"> <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">7 <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">
+         <tr id="row8"> <td onclick="getId(this)">9 <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">8 <td onclick="getId(this)">  <td onclick="getId(this)">2 <td onclick="getId(this)">  <td onclick="getId(this)">  <td onclick="getId(this)">5
+      </table>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

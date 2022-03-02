@@ -1,0 +1,48 @@
+* {
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    font-family: Calibri, sans-serif; 
+}
+
+table { 
+    border-collapse: collapse; 
+    font-family: Calibri, sans-serif; 
+    position: absolute;
+    margin: 0;
+    margin-left: 50%;
+    margin-top: 2%;
+    transform: translate(-50%);
+    width: 500px;
+    height: 500;
+    font-size: 40px;
+}
+
+colgroup, tbody {
+    border: solid medium black !important; 
+}
+
+td { 
+    border: solid thin; 
+    height: 1.4em; 
+    width: 1.4em; 
+    text-align: center; 
+    padding: 0;
+}
+
+.activeCell {
+    background-color: yellow !important;
+}
+
+.addedNumber {
+    background-color: #ebebeb;
+    color: #5496ff;
+    border: 1px solid black;
+}
+
+.removedNumber {
+    background-color: white;
+    color: black;
+}
